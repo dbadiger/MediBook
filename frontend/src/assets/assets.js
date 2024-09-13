@@ -27,6 +27,9 @@ import spec9 from "./psychiatrists.png"
 import verified from "./verified.png"
 import dropdown from "./dropdown.png"
 import user1 from "./user1.webp"
+import group from "./group.webp"
+import arrow from "./arrow.png"
+import appointment_image from "./appointment-image.webp"
 
 
 export const assets = {
@@ -34,7 +37,7 @@ export const assets = {
     doc1, doc2, doc3, doc4, doc5, doc6, doc7, doc8, doc9, doc10, doc11, doc12, doc13, doc14,
     doctors,
     doctors1,
-    verified,dropdown,user1
+    verified,dropdown,user1,group,arrow,appointment_image
 }
 
 export const specialityData = [
@@ -64,14 +67,14 @@ export const specialityData = [
         speciality:"Neurologist",
         image:spec6
     },
-    {
-        speciality:"Orthopedic",
-        image:spec7
-    },
-    {
-        speciality:"Pediatrician",
-        image:spec8
-    },
+    // {
+    //     speciality:"Orthopedic",
+    //     image:spec7
+    // },
+    // {
+    //     speciality:"Pediatrician",
+    //     image:spec8
+    // },
     {
         speciality:"Psychiatrist",
         image:spec9
